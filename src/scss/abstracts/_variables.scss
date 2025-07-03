@@ -1,0 +1,20 @@
+$themes: (
+        light: (
+                background: #fefefe,              // bright white background
+                card-bg: #ffffff,                 // clean white cards
+                text: #111827,                    // slate-900 (deep gray)
+                secondary-text: #6b7280,          // gray-500
+                accent: #2563eb,                  // deep blue (bold but not neon)
+                overlay: rgba(0, 0, 0, 0.05),     // subtle overlay for light
+                shadow: rgba(0, 0, 0, 0.1),       // clean and soft
+        ),
+        dark: (
+                background: #0a0a0a,              // true black or very close
+                card-bg: #1c1c1c,                 // near-black card (but distinguishable)
+                text: #f8fafc,                    // true white / light gray-blue
+                secondary-text: #a1a1aa,          // cool gray (e.g. zinc-400)
+                accent: #00d1ff,                  // cyan / neon blue accent
+                overlay: rgba(255, 255, 255, 0.08), // soft white overlay for dark
+                shadow: rgba(0, 0, 0, 0.6),       // deep and dramatic shadow
+        )
+);

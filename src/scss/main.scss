@@ -1,0 +1,6 @@
+@use './themes/themes'; // this applies theme classes
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}

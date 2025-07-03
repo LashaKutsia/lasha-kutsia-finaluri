@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+@mixin theme($theme-name) {
+    $theme-map: map-get($themes, $theme-name);
+
+    @if $theme-map {
+        .theme-#{$theme-name} {
+            @each $prop, $val in $theme-map {
+                --#{$prop}: #{$val};
+            }
+        }
+    }
+}

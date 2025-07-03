@@ -1,0 +1,5 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins' as *;
+
+@include theme(light);
+@include theme(dark);

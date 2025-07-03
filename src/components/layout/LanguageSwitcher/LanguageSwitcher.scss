@@ -1,0 +1,27 @@
+.language-switcher {
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+
+    .lang-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 6px;
+        opacity: 0.6;
+        transition: all 0.2s ease;
+
+        &.active {
+            opacity: 1;
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
